@@ -1,0 +1,62 @@
+ ✔ Vulnerability DB                [updated]
+ ✔ Loaded image                                                                                                                                go-cnb:latest
+ ✔ Parsed image                                                                      sha256:7589b53e77661c1899af415f3bb528bcb59b5a7d7ec3e6573bbc487a120100e0
+ ✔ Cataloged contents                                                                       9febaf1c2c3b69d588ebec8cbfb794f295a13f2d6ae2e6616926c8653169729a
+   ├── ✔ Packages                        [134 packages]
+   ├── ✔ Executables                     [740 executables]
+   ├── ✔ File metadata                   [4,331 locations]
+   └── ✔ File digests                    [4,331 files]
+ ✔ Scanned for vulnerabilities     [50 vulnerability matches]
+   ├── by severity: 0 critical, 1 high, 6 medium, 39 low, 4 negligible
+   └── by status:   2 fixed, 48 not-fixed, 0 ignored
+NAME                INSTALLED                 FIXED IN          TYPE       VULNERABILITY   SEVERITY    EPSS %  RISK   
+login               1:4.8.1-2ubuntu2.2                          deb        CVE-2024-56433  Low         85.69   0.9    
+passwd              1:4.8.1-2ubuntu2.2                          deb        CVE-2024-56433  Low         85.69   0.9    
+libsystemd0         249.11-0ubuntu3.16                          deb        CVE-2023-7008   Low         52.46   < 0.1  
+libudev1            249.11-0ubuntu3.16                          deb        CVE-2023-7008   Low         52.46   < 0.1  
+libtasn1-6          4.18.0-4ubuntu0.1                           deb        CVE-2021-46848  Low         50.84   < 0.1  
+libzstd1            1.4.8+dfsg-3build1                          deb        CVE-2022-4899   Low         43.04   < 0.1  
+libssl3             3.0.2-0ubuntu1.19                           deb        CVE-2024-41996  Low         38.41   < 0.1  
+openssl             3.0.2-0ubuntu1.19                           deb        CVE-2024-41996  Low         38.41   < 0.1  
+libgcrypt20         1.9.4-3ubuntu3                              deb        CVE-2024-2236   Low         38.07   < 0.1  
+gcc-12-base         12.3.0-1ubuntu1~22.04                       deb        CVE-2023-4039   Low         36.36   < 0.1  
+libgcc-s1           12.3.0-1ubuntu1~22.04                       deb        CVE-2023-4039   Low         36.36   < 0.1  
+libstdc++6          12.3.0-1ubuntu1~22.04                       deb        CVE-2023-4039   Low         36.36   < 0.1  
+coreutils           8.32-4.1ubuntu1.2                           deb        CVE-2016-2781   Low         25.39   < 0.1  
+stdlib              go1.24.2                  1.23.10, *1.24.4  go-module  CVE-2025-4673   Medium      11.31   < 0.1  
+dpkg                1.21.1ubuntu2.3                             deb        CVE-2025-6297   Low         23.39   < 0.1  
+libpcre3            2:8.39-13ubuntu0.22.04.1                    deb        CVE-2017-11164  Negligible  57.75   < 0.1  
+stdlib              go1.24.2                  1.24.4            go-module  CVE-2025-22874  High        4.09    < 0.1  
+libncurses6         6.3-2ubuntu0.1                              deb        CVE-2023-50495  Low         15.36   < 0.1  
+libncursesw6        6.3-2ubuntu0.1                              deb        CVE-2023-50495  Low         15.36   < 0.1  
+libtinfo6           6.3-2ubuntu0.1                              deb        CVE-2023-50495  Low         15.36   < 0.1  
+ncurses-base        6.3-2ubuntu0.1                              deb        CVE-2023-50495  Low         15.36   < 0.1  
+ncurses-bin         6.3-2ubuntu0.1                              deb        CVE-2023-50495  Low         15.36   < 0.1  
+libpam-modules      1.4.0-11ubuntu2.6                           deb        CVE-2024-10041  Medium      6.30    < 0.1  
+libpam-modules-bin  1.4.0-11ubuntu2.6                           deb        CVE-2024-10041  Medium      6.30    < 0.1  
+libpam-runtime      1.4.0-11ubuntu2.6                           deb        CVE-2024-10041  Medium      6.30    < 0.1  
+libpam0g            1.4.0-11ubuntu2.6                           deb        CVE-2024-10041  Medium      6.30    < 0.1  
+libpcre2-8-0        10.39-3ubuntu0.1                            deb        CVE-2022-41409  Low         14.04   < 0.1  
+gcc-12-base         12.3.0-1ubuntu1~22.04                       deb        CVE-2022-27943  Low         12.85   < 0.1  
+libgcc-s1           12.3.0-1ubuntu1~22.04                       deb        CVE-2022-27943  Low         12.85   < 0.1  
+libstdc++6          12.3.0-1ubuntu1~22.04                       deb        CVE-2022-27943  Low         12.85   < 0.1  
+libssl3             3.0.2-0ubuntu1.19                           deb        CVE-2025-27587  Low         12.65   < 0.1  
+openssl             3.0.2-0ubuntu1.19                           deb        CVE-2025-27587  Low         12.65   < 0.1  
+libc-bin            2.35-0ubuntu3.10                            deb        CVE-2016-20013  Negligible  41.57   < 0.1  
+libc6               2.35-0ubuntu3.10                            deb        CVE-2016-20013  Negligible  41.57   < 0.1  
+locales             2.35-0ubuntu3.10                            deb        CVE-2016-20013  Negligible  41.57   < 0.1  
+perl-base           5.34.0-3ubuntu1.4                           deb        CVE-2025-40909  Medium      2.42    < 0.1  
+login               1:4.8.1-2ubuntu2.2                          deb        CVE-2023-29383  Low         5.42    < 0.1  
+passwd              1:4.8.1-2ubuntu2.2                          deb        CVE-2023-29383  Low         5.42    < 0.1  
+coreutils           8.32-4.1ubuntu1.2                           deb        CVE-2025-5278   Low         2.00    < 0.1  
+libncurses6         6.3-2ubuntu0.1                              deb        CVE-2025-6141   Low         1.74    < 0.1  
+libncursesw6        6.3-2ubuntu0.1                              deb        CVE-2025-6141   Low         1.74    < 0.1  
+libtinfo6           6.3-2ubuntu0.1                              deb        CVE-2025-6141   Low         1.74    < 0.1  
+ncurses-base        6.3-2ubuntu0.1                              deb        CVE-2025-6141   Low         1.74    < 0.1  
+ncurses-bin         6.3-2ubuntu0.1                              deb        CVE-2025-6141   Low         1.74    < 0.1  
+gpgv                2.2.27-3ubuntu2.4                           deb        CVE-2022-3219   Low         1.28    < 0.1  
+libncurses6         6.3-2ubuntu0.1                              deb        CVE-2023-45918  Low         N/A     N/A    
+libncursesw6        6.3-2ubuntu0.1                              deb        CVE-2023-45918  Low         N/A     N/A    
+libtinfo6           6.3-2ubuntu0.1                              deb        CVE-2023-45918  Low         N/A     N/A    
+ncurses-base        6.3-2ubuntu0.1                              deb        CVE-2023-45918  Low         N/A     N/A    
+ncurses-bin         6.3-2ubuntu0.1                              deb        CVE-2023-45918  Low         N/A     N/A
